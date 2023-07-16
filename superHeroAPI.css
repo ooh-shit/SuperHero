@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Rubik:wght@300&family=Ubuntu&display=swap');
+
+*
+{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.Hero_cont
+{
+  background: linear-gradient(135deg, #9b59b6, #77426e);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+#name
+{
+  height: 10%;
+  width: 50%;
+  margin-top: 10px;
+}
+.sub
+{
+  display: flex;
+}
+#img
+{
+  height: 400px;
+  width: 400px;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#stats
+{
+  list-style: none;
+  background-color: antiquewhites;
+  height: 75px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.buttons
+{
+  margin-top: 50px;
+  margin-left: 10px;
+  /* position: fixed; */
+}
+
+#SearchInput
+{
+  height: 100%;
+  width: 30%;
+  background-color: rgba(240, 248, 255, 0.67);
+  border: 2px solid aliceblue;
+  padding: 5px;
+  font-size: larger;
+
+  border-radius: 20px;
+}
+#SearchInput:focus
+{
+  height: 100%;
+  width: 30%;
+  background-color: rgba(240, 248, 255, 0.67);
+  border: 2px solid aliceblue;
+  padding: 5px;
+  font-size: larger;
+
+  border-radius: 20px;
+}
+.doc
+{
+  width: 100vw;
+}
+
+.heading
+{
+  font-family: Rubik;
+  background-color: aqua;
+  width: 10%;
+}
+.group
+{
+  font-family: nunito;
+  background-color: green;
+  width: 20%;
+}
+.list
+{
+  list-style: none;
+}
+
+button
+{
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 20px;
+  border: 0px;
+  background-color: #2f262e;
+  color: aliceblue;
+}
+button:hover
+{
+  transition: 0.5s;
+  background-color: aliceblue;
+  color: #2f262e;
+}

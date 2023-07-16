@@ -1,0 +1,59 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+@keyframes grow1
+{
+  0%{
+    font-size: 0px;
+  }
+  100%
+  {
+    font-size: 300px;
+    color: red;
+    background-color: black;
+  }
+}
+@keyframes grow2
+{
+  0%{
+    font-size: 0px;
+  }
+  100%
+  {
+    font-size: 300px;
+    color: black;
+    background-color: red;
+  }
+}
+.head, .head3, .head5
+{
+  background-color: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 200px;
+  width: 100vw;
+  animation-name: grow1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head2, .head4 ,.head6
+{
+  background-color: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 200px;
+  width: 100vw;
+  transform: rotate(180deg);
+  animation-name: grow2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
